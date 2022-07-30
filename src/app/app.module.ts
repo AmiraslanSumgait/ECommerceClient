@@ -9,10 +9,11 @@ import { ToastrModule } from 'ngx-toastr';
 import { NgxSpinner, NgxSpinnerModule } from 'ngx-spinner';
 import { BaseComponent } from './base/base.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { DeleteDirective } from './directives/admin/delete.directive';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   
   ],
   imports: [
